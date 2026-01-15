@@ -110,6 +110,11 @@ input[type="file"] {
   font-weight: 600;
   border-radius: 12px;
   transition: background-color 0.2s, transform 0.1s;
+  text-align: center;
+}
+.direction-rtl{
+  display: flex;
+  justify-content: end;
 }
 
 .download-link:hover {
@@ -151,3 +156,5 @@ input[type="file"] {
     min-width: 160px;
   }
 }
+
+

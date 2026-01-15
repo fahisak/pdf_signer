@@ -96,6 +96,9 @@ const handleUpload = async () => {
         <div className="pdf-viewer">
           <div className="file-header">
             <h3>{`Signed File: ${signedFileName}`}</h3>
+            
+          </div>
+          <div className="direction-rtl">
             <a
               className="download-link"
               href={downloadUrl}
@@ -104,6 +107,7 @@ const handleUpload = async () => {
               Download
             </a>
           </div>
+          
 
           <Document
             file={{ data: signedPdf }}
