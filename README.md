@@ -1,7 +1,5 @@
 ﻿# pdf_signer
 
-# Mobile PDF Signer
-
 A React + Vite app to upload PDFs, mock-sign the last page, view, and download.
 
 ## Backend
@@ -15,3 +13,4 @@ cd backend
 npm install
 node server.js
 ```
+
