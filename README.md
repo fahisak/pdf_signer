@@ -11,6 +11,7 @@ A React + Vite app to upload PDFs, mock-sign the last page, view, and download.
 ```bash
 cd backend
 npm install
-node server.js
+node index.js
 ```
+
 
